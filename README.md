@@ -132,3 +132,9 @@ Enter) to drive the form through the agent.
   which is written into Redux via `setFormState`. Manual typing in the
   form dispatches the same slice's `setField`, so both entry paths share
   one source of truth.
+
+  ## Home Page
+  <img width="1862" height="932" alt="Screenshot 2026-07-11 101724" src="https://github.com/user-attachments/assets/8de24c64-353d-4a14-ab39-111bd6baf230" />
+  ## Result page
+  <img width="1854" height="896" alt="Screenshot 2026-07-11 101950" src="https://github.com/user-attachments/assets/7249d5f5-d054-4c8b-99ed-40a89a9c8d77" />
+
