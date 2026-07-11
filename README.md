@@ -4,7 +4,7 @@ An AI-first "Log HCP Interaction" screen for pharma field representatives.
 The screen is a split view: a **structured form** on the left and a
 **conversational AI Assistant** on the right. Instead of clicking through
 the form, the rep can just describe what happened in plain English — a
-**LangGraph agent** running on **Groq (`gemma2-9b-it`)** parses the message,
+**LangGraph agent** running on **Groq (`llama-3.1-8b-instant`)** parses the message,
 calls the right tool(s), and the form on the left updates itself in real
 time.
 
@@ -56,7 +56,7 @@ backend would have to re-parse.
 - **Frontend:** React 18 + Redux Toolkit (Vite)
 - **Backend:** Python + FastAPI
 - **AI Agent Framework:** LangGraph
-- **LLM:** Groq `gemma2-9b-it` (via `langchain-groq`)
+- **LLM:** Groq `llama-3.1-8b-instant` (via `langchain-groq`)
 - **Font:** Google Inter
 
 ## Project Structure
